@@ -1,4 +1,4 @@
-# HRSense: Joint Real-time Crowdsourcing and Urban Sensing with Human-Robot Collaboration
+# UrbanHuRo: A Two-Layer Human-Robot Collaboration Framework for the Joint Optimization of Heterogeneous Urban Services
 ### Experiment Data Files
 
 - [ ] Experiment Order data (Eleme): **data/order_data_test_2020_1013-1014_zhonghuan.csv** .
@@ -12,8 +12,8 @@
 - [ ] **baselines.py**: Contains all baselines.
 
 ### How run
--  Run HRsense:
-    -  Run mpirun -np <#Processes> --bind-to none python3 -W ignore ksubmod.py <#AVS> <r^T coefficient> <r^C coefficient> <r^I coefficient> **HRSense**
+-  Run UrbanHuRo:
+    -  Run mpirun -np <#Processes> --bind-to none python3 -W ignore ksubmod.py <#AVS> <r^T coefficient> <r^C coefficient> <r^I coefficient> HRSense
 -  Run Fastest-Delivery (FastD):
     -  Run *python *baselines.py* **fdd-sdp** <#AVS>.
 -  Run Best-Sensing (BestS):
